@@ -1,0 +1,381 @@
+/* REST CSS  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: rgb(250, 250, 250); */
+}
+.container{
+    position: relative;
+    width: 100vw;
+}
+/* NAVIGATION BAR  */
+#navbar{
+    display:flex;
+    position: relative;
+    width:100vw;
+}
+#navbar::before{
+    content:"";
+    position: absolute;
+    top:0px;
+    left: 0px;
+    background-color: white ;
+    width: 100%;
+    height:34vh;
+    z-index: -1;
+    opacity:1;
+}
+#navbar .logo img{
+    width:73px;
+
+}
+#navbar .menu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:12px 2px;
+    padding:8px 28px;
+
+}
+#navbar .menu li{
+    list-style: none;
+    font-size: 0.7rem;
+}
+#navbar .menu li a{
+    color:rgb(83, 80, 80);
+    padding:9px 11px;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    margin:2px 2px;
+}
+#navbar .menu li a:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    color:black;
+
+}
+#navbar .searchbar{
+    margin:5px 5px;
+    padding:5px 5px;
+}
+#navbar .searchbar form{
+    margin:5px 5px;
+    padding:5px 5px;
+    border-radius: 5px;
+}
+#navbar .searchbar input{
+    background-color: rgb(244, 244, 244) ;
+    border:2px solid white;
+    border-radius: 7px;
+    padding:10px 70px;
+    margin:5px 5px;
+
+}
+/* MAIN SECTION CSS */
+.h-primary{
+    font-size: 5.0rem;
+    color:white;
+}
+.center{
+    text-align: center;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:5px 5px;
+    width:101%;
+    height:420px;
+    padding:5px 5px;
+}
+#main::before{
+    content: "";
+    top:0px;
+    left:0px;
+    position: absolute;
+    background: url('bgmg.jpeg') no-repeat center center/cover;
+    width:100vw;
+    height:501px;
+    z-index: -1;
+}
+#buttonsec{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin:5px 5px;
+}
+.cont #buttonsec .btn1{
+    position: absolute;
+    top:223px;
+    left:102px;
+    display: flex;
+    flex-direction: column;
+    margin:5px 5px;
+    padding:5px 5px;
+}
+.cont #buttonsec .btn2{
+    position: absolute;
+    top:223px;
+    right:102px;
+    display: flex;
+    flex-direction: column;
+    margin:5px 5px;
+    padding:5px 5px;
+} 
+.cont #buttonsec .btn1 .firstbut button{
+    font-family: 'Roboto', sans-serif;
+    border:1px solid black;
+    border-radius: 7px;
+    background-color: rgb(235, 235, 226);
+    padding:20px 36px;
+    margin:15px 48px;
+}
+.cont #buttonsec .btn1 .secbut button{
+    border:1px solid black;
+    border-radius: 7px;
+    background-color: rgb(235, 235, 226);
+    padding:20px 37px;
+    margin:15px 48px;
+}
+.cont #buttonsec .btn2 .secfir button{
+    border:1px solid black;
+    border-radius: 7px;
+    background-color: rgb(235, 235, 226);
+    padding:20px 28px;
+    margin:15px 48px;
+}
+.cont #buttonsec .btn2 .secsec button{
+    border:1px solid black;
+    border-radius: 7px;
+    background-color: rgb(235, 235, 226);
+    padding:20px 34px;
+    margin:15px 48px;
+}
+/* DEALS SECTION  */
+#deals{
+    display: flex;
+    flex-direction: column;
+}
+#deals .banner img{
+    width:100%;
+}
+#dealsbox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#dealsbox .box1{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+#dealsbox .box2{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dealsbox .box1 .subbox img{
+    width:100%;
+    height:76%;
+    padding:6px 9px;
+}
+#dealsbox .box2 .subbox img{
+    width:100%;
+    height:76%;
+    padding:6px 9px;
+}
+/* BUDGET BUY SECTION  */
+#budgetbuy{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:420px;
+}
+#budgetbuy .banner img{
+    width:100%;
+}
+#budgetbuy .budget{
+    display:flex;
+    width:100%;
+}
+#budgetbuy .budget .subdeal{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+#budgetbuy .budget .subdeal img{
+    width:100%;
+    height:82%;
+    padding:6px 9px;
+}
+/* ESSENTIAL SECTION  */
+#essential{
+    display:flex;
+    flex-direction: column;
+    /* height:100px;  */
+}
+#essential .banner img{
+    width:100%;
+}
+#essential .essbox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background-color: rgb(252, 116, 116);
+}
+#essential .essbox .box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:150%;
+}
+#essential .essbox .box2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:150%;
+}
+#essential .essbox .box1 .subbox img{
+    width:103%;
+    height: 80%;
+    padding:8px 12px;
+}
+#essential .essbox .box2 .subbox img{
+    width:103%;
+    height:80%;
+    padding:8px 12px;
+}
+/* BRAND SECTION  */
+#brand{
+    display: flex;
+    flex-direction: column;
+}
+#brand .banner img{
+    width:100%;
+}
+#brand .brandbox{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+#brand .brandbox .subbox img{
+    width:100%;
+    height:80%;
+    padding:5px 5px;
+}
+/* CATEGORY SECTION  */
+#category{
+    display:flex;
+    flex-direction: column;
+}
+#category .banner img{
+    width:100%;
+}
+#category .catbox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+#category .catbox .box1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:112%;
+}
+#category .catbox .box2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+#category .catbox .box1 .subbox img{
+    width:100%;
+    padding:5px 5px;
+}
+#category .catbox .box2 .subbox img{
+    width:100%;
+    padding:5px 5px;
+}
+/* FINAL SECTION  */
+#final{
+    display:flex;
+    position: relative;
+    justify-content: space-evenly;
+    width:100%;
+    height:400px;
+    background-color: rgb(222, 224, 224);
+    font-family: 'Roboto', sans-serif;
+    
+}
+.color{
+    color:rgb(139, 139, 139);
+}
+#final .first{
+    display:flex;
+    flex-direction: column;
+    align-self:self-start;
+}
+#final .first .part1{
+    padding:12px 5px;
+}
+#final .first .part1 pre{
+    padding:5px 2px;
+}
+#final .first .part2 pre{
+    padding:5px 2px;
+}
+#final .first .part2{
+    padding:15px 4px;
+}
+#final .second{
+    padding:14px 10px;
+}
+#final .second pre{
+    padding:5px 6px;
+}
+#final .third{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding:14px 10px;
+      margin: 3px 3px;
+}
+
+#final .third .box1 img{
+    padding:12px 8px;
+    width:100px;
+}
+#final .third .box2{
+    display: flex;
+    padding:5px 5px;
+}
+#final .third .box2 img{
+    width:16px;
+    margin:2px 4px;
+}
+#final .fourth{
+    padding:40px 25px;
+}
+#final .fourth pre{
+    padding:4px 7px;
+}
+
+
+
+
+

@@ -1,0 +1,110 @@
+
+/* NAVBAR  */
+#navbar{
+    flex-direction: column;
+}
+#navbar .logo{
+    display:block;
+    width: 24%;
+    margin:auto;
+}
+#navbar .menu ul{
+    display:flex;
+    justify-content: flex-start;
+    padding:2px 2px;
+}
+#navbar .menu li{
+    font-size: 0.5rem;
+}
+#navbar ul li a{
+    padding:9px 3px;
+    margin:10px 12px;
+}
+#navbar .searchbar{
+    padding:2px 2px;
+    margin:2px 2px;
+    width:30%;
+}
+/* MAIN SECTION  */
+#main{
+    width:94%;
+    height:398px;
+}
+#main::before{
+    height:618px;
+}
+.cont #buttonsec .btn1{
+    top:148px;
+    left:-41px;
+}
+.cont #buttonsec .btn1 .firstbut button{
+    padding:10px 36px;
+    margin:100px 48px;
+}
+.cont #buttonsec .btn1 .secbut button{
+    padding:11px 37px;
+    margin:74px 48px;
+}
+.cont #buttonsec .btn2{
+    top:148px;
+    right:-41px;
+}
+.cont #buttonsec .btn2 .secfir button{
+    padding:10px 36px;
+    margin:100px 48px;
+}
+.cont #buttonsec .btn2 .secsec button{
+    padding:11px 37px;
+    margin:74px 48px;
+}
+/* budget buys  */
+#budgetbuy{
+    height:106px;
+}
+#essential .essbox .box1{
+    width:103%
+}
+#essential .essbox .box2{
+    width:103%;
+}
+#category .catbox .box1{
+    width:99%;
+}
+#final{
+    height:805px;
+}
+#final .res{
+    display:flex;
+    flex-direction: column;
+}
+#final .first{
+    position: absolute;
+    left:41px;
+}
+#final .second{
+    position:absolute;
+    right:14px;
+}
+#final .first .part1 pre,
+#final .first .part2 pre{
+    font-size: 0.7rem;
+}
+#final .third{
+    position: absolute;
+    left:32px;
+    padding: 351px 10px;
+}
+#final .third .heading{
+    font-size: 0.7rem;
+}
+#final .third .box1 img{
+    width:79px;
+}
+#final .third .box2 img{
+    margin:1px;
+}
+#final .fourth{
+    position: absolute;
+    right:15px;
+    padding: 296px 2px;
+}
